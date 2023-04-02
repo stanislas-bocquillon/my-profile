@@ -1,0 +1,107 @@
+body {
+	background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+
+
+
+ 
+	color: rgb(50, 50, 50);
+	font-family: 'Arvo', serif;
+	text-align: justify-all;
+
+
+}
+h1, h2, h3 {
+	font-family: 'Mukta', sans-serif;
+}
+h1 {
+	color: #3F72AF;
+	font-size: 32px;
+
+
+}
+h2 { 
+	color: rgb(90, 150, 200);
+	font-size: 24px;
+	font-weight: 500;
+
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(90, 150, 200);
+	background-color: white;
+}
+
+#profile {
+	width: 160px;
+	margin: 10px auto;
+
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  
+  .container {
+    width: 300px;
+  }
+}
+
+.box_design {
+	background: white;
+    		padding: 40px;
+    		margin: 30px;
+    		box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    		border-radius: 10px;
+    		text-align: center;
+    	}
+#image {
+	border-radius: 50%;
+}
+
+.btn_blue {
+	background-color: rgb(90, 150, 200);
+	color: white; 
+	padding: 15px 20px;
+	border-radius: 5px;
+
+}
+.mediabox {
+	list-style: none;
+	padding-left: 0px; 
+}
+
+.mediabox li {
+	display: inline;
+	padding: 50px
+
+}
+.mediabox i {
+	font-size: 40px;
+
+}
+#intro p {
+	margin-bottom: 40px;
+
+
+}
